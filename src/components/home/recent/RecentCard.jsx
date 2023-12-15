@@ -1,6 +1,7 @@
 import React from "react";
 import { list } from "../../data/Data";
 import { Link, useHistory } from "react-router-dom";
+import "./recent.css";
 
 const RecentCard = () => {
   const history = useHistory();
@@ -15,7 +16,7 @@ const RecentCard = () => {
         {list.map((val, index) => {
           const { cover, category, location, name, price, type } = val;
           return (
-            <div className='box shadow' key={index}>
+            <div className='box shadow box-recent' key={index}>
               <div className='img' style={{ height: "35vh" }}>
                 <img src={cover} alt='' />
               </div>
