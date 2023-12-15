@@ -1,0 +1,12 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  /* ImageCarousel.css */
+.carousel-slide {
+    margin-right: 10px; /* Adjust the margin value to control the space between images */
+  }
+  
