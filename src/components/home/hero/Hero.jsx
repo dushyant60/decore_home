@@ -7,8 +7,7 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <Heading title='Luxirious Creative and Comfortable Interiors' subtitle='Find new & featured property located in your local city.' />
-          
+          <Heading title='Luxirious Creative and Comfortable Interiors' subtitle='Innovative Designs, Personalized for You' />
         </div>
       </section>
     </>

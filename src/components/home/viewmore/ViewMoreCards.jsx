@@ -19,7 +19,7 @@ const ViewMoreCards = () => {
         <div className='container recent'>
         <div className='content grid3 mtop'>
           {selectedItem.images.map((image, index) => (
-            <div className='box shadow' key={index}>
+            <div className='box shadow recent-images' key={index}>
               <div className='img' style={{ height: "35vh" }}>
                 <img src={image} alt={`Image ${index + 1}`} />
               </div>

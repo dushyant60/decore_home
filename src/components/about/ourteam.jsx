@@ -3,7 +3,7 @@ import Heading from "../../common/Heading"
 import { team } from "../../data/Data"
 import "./team.css"
 
-const Team = () => {
+const OurTeam = () => {
   return (
     <>
       <section className='team background'>
@@ -28,14 +28,14 @@ const Team = () => {
                       <li key={index}>{icon}</li>
                     ))}
                   </ul>
-                  <div className='button flex' style={{marginLeft:"28%"}}>
+                  <div className='button flex'>
                     <button>
                       <i className='fa fa-envelope'></i>
                       Message
                     </button>
-                    {/* <button className='btn4'>
+                    <button className='btn4'>
                       <i className='fa fa-phone-alt'></i>
-                    </button> */}
+                    </button>
                   </div>
                 </div>
               </div>
@@ -47,4 +47,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default OurTeam
